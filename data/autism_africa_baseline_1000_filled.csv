@@ -1,0 +1,1001 @@
+patient_id,age_months,sex,residence,parental_education,preeclampsia,birth_asphyxia,preterm_birth,low_birth_weight,family_history_asd,consanguineous_marriage,asd_status,severity,social_communication_delay,repetitive_behaviors_score,sensory_sensitivities,age_concern_months,age_diagnosis_months,diagnostic_delay_months,first_words_months,two_word_phrases_months,eye_contact_age_months,social_smile_months,intellectual_disability,epilepsy,adhd,language_disorder,motor_delay,screening_done,screening_result,asd_probability_score
+ASD000001,58,Male,Urban,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,2,1,False,False,False,False,False,True,Negative,0.152
+ASD000002,48,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,29,1,1,False,False,False,False,False,True,Negative,0.164
+ASD000003,17,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,True,False Positive,0.025
+ASD000004,59,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Moderate,3,3,True,12.0,36.0,24.0,15,52,10,2,True,False,False,False,False,True,Positive,0.078
+ASD000005,87,Female,Rural,Secondary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,1,False,False,False,False,False,True,Negative,0.017
+ASD000006,25,Male,Urban,None/Primary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,19,2,2,False,False,False,False,False,False,Not Screened,0.075
+ASD000007,12,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,26,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000008,22,Female,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,31,2,1,False,False,False,False,False,False,Not Screened,0.016
+ASD000009,21,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,3,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000010,58,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,1,True,False,False,False,False,True,Negative,0.019
+ASD000011,90,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,False,False,False,True,Negative,0.01
+ASD000012,66,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,2,1,False,False,False,False,False,True,False Positive,0.015
+ASD000013,74,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Severe,7,6,True,12.0,28.0,16.0,29,56,11,6,True,False,False,False,False,True,Positive,0.078
+ASD000014,25,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,2,2,False,False,False,False,False,False,Not Screened,0.117
+ASD000015,31,Male,Urban,Secondary,True,False,False,False,False,False,Positive,Mild,2,2,False,29.0,31.0,2.0,12,27,7,2,True,False,False,True,False,True,Positive,0.101
+ASD000016,38,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,1,False,False,False,False,False,True,Negative,0.061
+ASD000017,47,Male,Urban,Secondary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,18,1,1,False,False,False,False,False,True,Negative,0.125
+ASD000018,61,Male,Rural,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,2,False,False,True,False,False,False,Not Screened,0.076
+ASD000019,36,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,2,1,False,False,False,False,False,True,Negative,0.055
+ASD000020,22,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,1,True,False,False,False,False,False,Not Screened,0.025
+ASD000021,32,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,3,2,False,False,False,False,False,True,Negative,0.025
+ASD000022,55,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,3,2,False,False,False,False,False,True,Negative,0.047
+ASD000023,43,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,2,True,False,False,False,False,False,Not Screened,0.109
+ASD000024,27,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,1,False,False,False,False,False,True,Negative,0.059
+ASD000025,67,Female,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,20,1,1,False,False,False,False,False,False,Not Screened,0.014
+ASD000026,23,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000027,43,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000028,54,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Moderate,5,3,False,20.0,23.0,3.0,24,40,7,2,False,True,False,False,False,False,Not Screened,0.078
+ASD000029,51,Female,Rural,Secondary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,Negative,0.017
+ASD000030,47,Male,Rural,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,False,False,True,Negative,0.055
+ASD000031,41,Female,Rural,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,1,2,False,False,False,False,False,True,Negative,0.008
+ASD000032,30,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,32,3,1,False,False,False,False,False,True,Negative,0.047
+ASD000033,31,Male,Urban,Higher,False,True,False,False,False,False,Positive,Severe,7,8,False,12.0,31.0,19.0,22,59,14,5,True,True,False,True,False,True,Positive,0.142
+ASD000034,63,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,2,2,False,False,False,False,False,True,False Positive,0.019
+ASD000035,80,Male,Urban,None/Primary,False,True,False,False,False,False,Positive,Moderate,4,5,True,12.0,47.0,35.0,23,36,11,2,False,False,False,True,True,False,Not Screened,0.061
+ASD000036,35,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000037,74,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000038,43,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,1,False,False,False,False,False,True,Negative,0.07
+ASD000039,16,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,1,2,False,False,True,False,False,True,Negative,0.101
+ASD000040,52,Female,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,2,2,False,False,False,False,False,True,Negative,0.035
+ASD000041,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,2,False,False,False,False,False,True,Negative,0.109
+ASD000042,34,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000043,51,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,23,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000044,21,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,2,False,False,False,False,False,False,Not Screened,0.019
+ASD000045,18,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000046,61,Female,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,1,False,False,False,False,False,True,Negative,0.008
+ASD000047,45,Male,Rural,None/Primary,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,2,False,False,False,False,False,True,Negative,0.049
+ASD000048,43,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000049,49,Male,Rural,Secondary,False,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,28,1,2,False,False,False,False,False,True,Negative,0.082
+ASD000050,52,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,22,1,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000051,47,Male,Urban,Higher,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,1,1,False,False,False,False,False,False,Not Screened,0.175
+ASD000052,25,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,1,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000053,57,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,3,1,False,False,False,False,False,True,False Positive,0.142
+ASD000054,61,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,2,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000055,88,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,32,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000056,33,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,1,3,False,False,False,False,False,True,Negative,0.047
+ASD000057,25,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,30,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000058,71,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,1,2,False,False,False,False,True,True,False Positive,0.078
+ASD000059,44,Male,Rural,Secondary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,2,2,False,False,False,False,False,False,Not Screened,0.067
+ASD000060,34,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,22,1,1,False,False,False,False,False,True,False Positive,0.042
+ASD000061,52,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,2,False,False,False,False,True,True,False Positive,0.012
+ASD000062,64,Female,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,1,False,False,False,False,True,True,Negative,0.015
+ASD000063,41,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000064,44,Male,Rural,Secondary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,1,2,False,False,False,False,False,True,Negative,0.067
+ASD000065,31,Male,Urban,Higher,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,2,2,False,False,False,False,False,True,Negative,0.175
+ASD000066,40,Male,Rural,Secondary,False,True,False,False,True,False,Positive,Moderate,5,4,True,21.0,40.0,19.0,19,37,9,1,False,False,True,True,True,True,Positive,0.067
+ASD000067,22,Female,Urban,Secondary,False,False,False,False,False,False,Positive,Mild,5,2,True,17.0,22.0,5.0,17,29,7,1,False,False,True,True,False,True,Positive,0.019
+ASD000068,82,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,2,False,False,False,False,False,True,Negative,0.01
+ASD000069,46,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,3,False,False,False,False,False,True,Negative,0.025
+ASD000070,17,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,30,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000071,39,Male,Urban,Higher,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,2,2,False,False,False,False,False,True,Negative,0.213
+ASD000072,12,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,23,1,1,False,False,False,False,False,False,Not Screened,0.07
+ASD000073,53,Male,Urban,None/Primary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,3,False,False,True,False,False,False,Not Screened,0.091
+ASD000074,42,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,2,False,False,False,True,False,False,Not Screened,0.07
+ASD000075,28,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,32,1,2,False,False,False,False,True,True,Negative,0.025
+ASD000076,33,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,2,2,False,False,False,False,False,False,Not Screened,0.117
+ASD000077,22,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,2,2,False,False,False,False,False,False,Not Screened,0.019
+ASD000078,60,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,33,1,2,False,False,False,False,False,True,Negative,0.042
+ASD000079,46,Male,Urban,Secondary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,1,1,False,False,True,False,False,False,Not Screened,0.152
+ASD000080,76,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000081,64,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000082,20,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,True,False,False,False,Not Screened,0.047
+ASD000083,20,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000084,37,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,3,1,False,False,False,False,False,False,Not Screened,0.019
+ASD000085,40,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,False,Not Screened,0.059
+ASD000086,68,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,2,False,False,False,False,False,True,Negative,0.055
+ASD000087,43,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,2,2,False,False,True,False,False,False,Not Screened,0.078
+ASD000088,57,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,20,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000089,40,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,2,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000090,65,Male,Urban,Secondary,False,True,True,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,2,1,False,False,False,False,False,True,Negative,0.222
+ASD000091,50,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,3,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000092,54,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,24,2,2,False,False,False,False,False,True,False Positive,0.012
+ASD000093,29,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,27,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000094,68,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,2,1,False,False,False,False,False,True,False Positive,0.061
+ASD000095,74,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000096,62,Male,Rural,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,2,2,False,False,False,False,False,False,Not Screened,0.055
+ASD000097,24,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,18,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000098,33,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000099,44,Female,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,2,False,False,False,False,False,True,False Positive,0.008
+ASD000100,32,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,2,False,False,False,False,False,True,Negative,0.061
+ASD000101,74,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,1,2,False,False,False,False,False,True,False Positive,0.042
+ASD000102,40,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000103,50,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,28,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000104,36,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Mild,4,2,True,17.0,20.0,3.0,21,23,3,2,True,False,False,True,False,True,False Negative,0.078
+ASD000105,24,Female,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,2,False,False,False,False,False,True,False Positive,0.014
+ASD000106,50,Male,Rural,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,2,False,False,False,False,False,True,Negative,0.076
+ASD000107,25,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,22,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000108,49,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,1,False,False,False,False,False,True,Negative,0.015
+ASD000109,50,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,3,2,True,False,False,False,True,True,Negative,0.019
+ASD000110,69,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,2,3,False,False,False,False,False,True,Negative,0.078
+ASD000111,52,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,1,2,False,False,False,False,False,True,Negative,0.01
+ASD000112,40,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,2,2,False,False,False,False,False,False,Not Screened,0.006
+ASD000113,53,Male,Urban,Higher,False,False,False,False,False,False,Positive,Mild,3,2,False,12.0,26.0,14.0,14,36,11,3,True,False,False,True,False,True,Positive,0.109
+ASD000114,20,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,22,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000115,12,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,2,False,False,False,False,False,True,Negative,0.042
+ASD000116,12,Male,Rural,None/Primary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,2,2,False,False,False,False,False,True,Negative,0.04
+ASD000117,37,Male,Urban,Higher,True,False,False,False,False,False,Positive,Severe,6,6,True,23.0,37.0,14.0,27,72,10,5,False,True,False,True,True,False,Not Screened,0.142
+ASD000118,52,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000119,15,Male,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,21,1,1,False,False,False,False,True,True,Negative,0.076
+ASD000120,36,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,2,1,False,False,True,False,False,False,Not Screened,0.078
+ASD000121,53,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,2,False,False,False,False,False,True,Negative,0.142
+ASD000122,51,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,23,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000123,39,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,3,2,False,False,False,False,False,False,Not Screened,0.019
+ASD000124,42,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,29,1,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000125,32,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000126,22,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,2,True,False,False,False,False,False,Not Screened,0.042
+ASD000127,39,Male,Rural,Higher,False,False,False,False,False,False,Positive,Severe,6,7,False,30.0,39.0,9.0,31,66,14,5,False,False,False,True,False,True,Positive,0.059
+ASD000128,53,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,1,False,False,False,False,False,True,Negative,0.061
+ASD000129,14,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,20,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000130,55,Male,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,2,1,False,False,False,False,False,True,Negative,0.076
+ASD000131,43,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,2,False,False,False,True,False,True,Negative,0.042
+ASD000132,34,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000133,12,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,1,False,False,False,False,False,True,Negative,0.061
+ASD000134,32,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000135,39,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,1,False,False,False,False,False,True,Negative,0.055
+ASD000136,62,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000137,37,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,22,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000138,30,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,1,False,False,False,True,False,True,False Positive,0.078
+ASD000139,63,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,3,1,False,False,True,False,True,True,False Positive,0.047
+ASD000140,34,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000141,35,Female,Urban,Higher,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,False,Not Screened,0.053
+ASD000142,28,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,31,1,2,False,False,False,False,False,False,Not Screened,0.027
+ASD000143,47,Male,Rural,Higher,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,2,False,False,False,False,False,True,Negative,0.076
+ASD000144,30,Male,Urban,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,27,2,2,False,False,False,False,False,False,Not Screened,0.152
+ASD000145,16,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,29,2,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000146,35,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,1,False,False,False,False,True,False,Not Screened,0.061
+ASD000147,57,Male,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,True,False Positive,0.091
+ASD000148,39,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,2,False,False,False,True,False,False,Not Screened,0.042
+ASD000149,63,Male,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,2,1,False,False,False,False,False,True,Negative,0.061
+ASD000150,39,Male,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,1,False,False,False,False,False,True,Negative,0.061
+ASD000151,46,Female,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,1,False,False,False,False,False,True,Negative,0.035
+ASD000152,34,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,2,1,False,False,False,False,False,False,Not Screened,0.07
+ASD000153,31,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,1,False,False,True,False,False,True,Negative,0.042
+ASD000154,43,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000155,58,Female,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,33,3,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000156,41,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000157,41,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000158,12,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,2,False,False,False,False,True,False,Not Screened,0.01
+ASD000159,33,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,30,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000160,17,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000161,47,Female,Rural,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,False,Not Screened,0.008
+ASD000162,12,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,2,2,False,False,False,False,False,True,Negative,0.063
+ASD000163,72,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,23,2,2,False,False,False,False,False,True,Negative,0.055
+ASD000164,49,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000165,57,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,2,True,False,False,False,False,False,Not Screened,0.047
+ASD000166,79,Female,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,2,False,False,False,False,False,True,Negative,0.014
+ASD000167,58,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000168,44,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,3,1,False,False,False,False,False,True,Negative,0.047
+ASD000169,18,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,20,2,1,False,False,False,False,False,False,Not Screened,0.164
+ASD000170,12,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,1,False,False,False,False,False,True,Negative,0.063
+ASD000171,59,Male,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,1,2,False,False,False,False,False,False,Not Screened,0.088
+ASD000172,29,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,28,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000173,31,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,23,1,1,False,False,False,False,False,True,Negative,0.025
+ASD000174,12,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,3,2,False,False,False,False,False,True,Negative,0.025
+ASD000175,39,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000176,42,Male,Urban,Secondary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000177,34,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,28,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000178,26,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,1,False,False,False,False,False,True,False Positive,0.078
+ASD000179,74,Female,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,1,1,False,False,False,False,False,True,Negative,0.016
+ASD000180,97,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,1,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000181,52,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000182,38,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,26,1,1,False,False,False,False,False,True,Negative,0.117
+ASD000183,64,Male,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,2,2,False,False,True,False,False,True,Negative,0.091
+ASD000184,50,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000185,28,Male,Rural,Secondary,False,False,False,False,False,False,Positive,Severe,8,8,False,20.0,28.0,8.0,30,59,16,4,True,False,False,False,True,True,Positive,0.042
+ASD000186,46,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,2,1,False,False,False,False,False,True,False Positive,0.07
+ASD000187,36,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,24,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000188,19,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,36,1,2,False,False,False,False,False,True,Negative,0.006
+ASD000189,46,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000190,85,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,2,3,False,29.0,47.0,18.0,12,21,9,2,True,False,False,False,False,False,Not Screened,0.047
+ASD000191,68,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,32,1,2,False,True,False,False,False,False,Not Screened,0.142
+ASD000192,50,Male,Rural,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,3,2,False,False,False,False,False,False,Not Screened,0.033
+ASD000193,51,Male,Rural,Higher,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,2,False,False,False,False,False,False,Not Screened,0.076
+ASD000194,46,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000195,46,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,2,2,False,True,False,True,False,False,Not Screened,0.047
+ASD000196,12,Male,Rural,Higher,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,22,1,1,False,False,False,False,False,True,Negative,0.076
+ASD000197,50,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,26,1,1,False,False,False,False,False,False,Not Screened,0.012
+ASD000198,65,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000199,61,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,2,False,False,False,False,False,False,Not Screened,0.027
+ASD000200,19,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,30,1,2,False,False,False,False,False,True,Negative,0.042
+ASD000201,53,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,1,False,False,False,False,False,True,False Positive,0.078
+ASD000202,33,Male,Rural,None/Primary,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,30,1,2,False,False,False,False,False,False,Not Screened,0.04
+ASD000203,57,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000204,53,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,4,2,False,False,False,False,False,True,Negative,0.063
+ASD000205,64,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,31,2,2,False,False,False,False,False,True,False Positive,0.038
+ASD000206,44,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,2,False,False,False,False,False,False,Not Screened,0.164
+ASD000207,21,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000208,53,Male,Rural,None/Primary,False,True,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,29,1,2,False,False,False,False,False,False,Not Screened,0.048
+ASD000209,14,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,2,1,False,False,False,False,False,True,Negative,0.047
+ASD000210,38,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,21,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000211,76,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,1,False,False,False,False,False,False,Not Screened,0.027
+ASD000212,71,Male,Urban,Secondary,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,1,False,False,False,False,False,True,Negative,0.125
+ASD000213,63,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,1,1,False,False,False,True,False,False,Not Screened,0.055
+ASD000214,40,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000215,48,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,30,1,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000216,47,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,3,1,False,False,False,False,False,True,Negative,0.042
+ASD000217,28,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,1,False,False,False,True,False,True,Negative,0.101
+ASD000218,35,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,3,2,False,False,False,False,False,False,Not Screened,0.059
+ASD000219,63,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,29,1,2,False,False,False,False,False,True,False Positive,0.025
+ASD000220,51,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,2,False,False,False,False,False,False,Not Screened,0.063
+ASD000221,31,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,3,False,False,False,False,False,False,Not Screened,0.059
+ASD000222,65,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000223,49,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000224,29,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,False,Not Screened,0.07
+ASD000225,38,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000226,43,Male,Urban,Higher,False,False,False,False,False,True,Positive,Mild,2,2,False,25.0,43.0,18.0,10,33,12,2,True,False,True,False,False,True,False Negative,0.164
+ASD000227,23,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,22,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000228,37,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000229,31,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,1,False,False,False,False,False,False,Not Screened,0.063
+ASD000230,31,Male,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,2,False,False,False,False,False,True,False Positive,0.061
+ASD000231,45,Male,Rural,Secondary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,1,False,False,False,True,False,True,False Positive,0.067
+ASD000232,44,Male,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,2,2,False,True,False,False,False,False,Not Screened,0.101
+ASD000233,30,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,22,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000234,37,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000235,36,Male,Rural,Higher,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,27,1,1,False,False,False,False,False,True,Negative,0.094
+ASD000236,53,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,1,2,False,False,False,False,False,False,Not Screened,0.012
+ASD000237,28,Male,Rural,Secondary,False,False,False,False,False,False,Positive,Mild,4,3,True,22.0,28.0,6.0,13,33,7,1,True,False,False,True,False,False,Not Screened,0.042
+ASD000238,49,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,30,1,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000239,75,Male,Urban,None/Primary,False,False,True,False,False,False,Positive,Moderate,4,3,False,27.0,69.0,42.0,17,39,11,3,False,False,True,True,False,False,Not Screened,0.061
+ASD000240,62,Male,Rural,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,1,2,False,False,False,False,False,False,Not Screened,0.033
+ASD000241,50,Male,Rural,Higher,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,2,False,False,False,False,False,True,Negative,0.094
+ASD000242,20,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,2,False,False,False,False,False,True,Negative,0.059
+ASD000243,28,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,24,2,2,False,False,True,False,True,True,Negative,0.07
+ASD000244,37,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,21,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000245,60,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000246,52,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000247,40,Male,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,2,2,False,False,True,False,False,False,Not Screened,0.091
+ASD000248,51,Female,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,1,False,False,False,False,False,True,Negative,0.018
+ASD000249,58,Male,Urban,Secondary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000250,82,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,1,1,False,False,False,False,False,True,Negative,0.025
+ASD000251,32,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,3,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000252,23,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,2,False,False,False,False,False,False,Not Screened,0.101
+ASD000253,15,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,2,False,False,False,False,False,True,False Positive,0.047
+ASD000254,35,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,1,False,False,False,False,False,False,Not Screened,0.059
+ASD000255,64,Male,Urban,None/Primary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,31,2,1,False,False,False,False,False,True,Negative,0.075
+ASD000256,57,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,False,Not Screened,0.015
+ASD000257,69,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,False Positive,0.025
+ASD000258,18,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000259,26,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,1,1,False,False,False,False,False,True,Negative,0.063
+ASD000260,42,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,28,1,1,False,False,False,False,True,False,Not Screened,0.109
+ASD000261,46,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000262,80,Male,Urban,Higher,False,False,False,True,False,False,Positive,Mild,2,2,False,13.0,33.0,20.0,23,19,5,2,False,False,False,True,False,True,Positive,0.142
+ASD000263,37,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,3,1,False,False,False,False,False,True,Negative,0.025
+ASD000264,35,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Mild,2,2,True,22.0,35.0,13.0,16,42,6,1,True,False,False,True,False,True,Positive,0.078
+ASD000265,45,Male,Rural,Higher,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,3,2,False,False,False,False,False,True,Negative,0.094
+ASD000266,60,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000267,46,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,1,False,False,False,False,False,False,Not Screened,0.027
+ASD000268,32,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000269,30,Male,Urban,Secondary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,29,1,2,False,False,False,False,False,True,Negative,0.152
+ASD000270,81,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000271,38,Male,Rural,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,1,False,False,False,False,False,True,Negative,0.076
+ASD000272,34,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,1,1,False,False,False,False,False,True,Negative,0.063
+ASD000273,59,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,18,20,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000274,72,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,3,2,False,False,False,False,True,False,Not Screened,0.025
+ASD000275,42,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000276,25,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,2,2,False,False,False,False,False,True,Negative,0.142
+ASD000277,31,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,2,False,False,False,False,False,True,Negative,0.055
+ASD000278,38,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,3,1,False,False,False,False,False,False,Not Screened,0.059
+ASD000279,60,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,31,1,1,False,False,False,False,False,True,False Positive,0.109
+ASD000280,78,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000281,31,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,True,False,False,False,False,Not Screened,0.078
+ASD000282,75,Male,Rural,Higher,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,1,False,False,False,False,False,False,Not Screened,0.076
+ASD000283,25,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,20,2,2,False,False,False,True,False,True,Negative,0.061
+ASD000284,20,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,27,2,3,False,False,False,False,False,True,Negative,0.059
+ASD000285,36,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,1,1,False,False,False,False,False,False,Not Screened,0.063
+ASD000286,63,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,31,3,2,False,False,False,False,False,True,Negative,0.078
+ASD000287,61,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000288,57,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000289,76,Male,Rural,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,2,False,False,False,False,False,False,Not Screened,0.033
+ASD000290,44,Female,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,3,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000291,45,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,19,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000292,16,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,26,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000293,32,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,2,False,False,False,False,False,True,Negative,0.01
+ASD000294,33,Female,Rural,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,32,1,2,False,False,False,False,False,True,Negative,0.014
+ASD000295,19,Male,Urban,None/Primary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,1,1,False,False,False,False,False,True,Negative,0.075
+ASD000296,40,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,2,False,False,False,False,False,False,Not Screened,0.142
+ASD000297,12,Female,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,1,1,False,False,False,False,False,False,Not Screened,0.015
+ASD000298,30,Male,Urban,Secondary,False,False,True,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,2,False,False,False,False,False,True,Negative,0.187
+ASD000299,23,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000300,32,Female,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,32,3,2,False,False,False,False,False,True,Negative,0.015
+ASD000301,33,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000302,48,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,23,2,2,False,False,False,False,False,False,Not Screened,0.029
+ASD000303,24,Male,Rural,Secondary,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,19,2,2,False,False,False,False,False,True,Negative,0.082
+ASD000304,17,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,19,1,2,True,False,True,False,False,False,Not Screened,0.109
+ASD000305,17,Female,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,1,1,False,False,False,True,False,True,Negative,0.022
+ASD000306,49,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,3,2,False,False,False,False,False,True,Negative,0.078
+ASD000307,37,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,2,False,False,True,False,False,True,Negative,0.012
+ASD000308,37,Male,Urban,None/Primary,False,False,False,True,False,False,Positive,Mild,1,3,False,21.0,26.0,5.0,18,33,5,3,True,True,False,False,True,False,Not Screened,0.061
+ASD000309,45,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000310,61,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,3,2,False,False,False,False,False,True,Negative,0.061
+ASD000311,38,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,28,1,1,False,False,False,False,False,False,Not Screened,0.07
+ASD000312,42,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000313,78,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,2,1,False,False,True,False,False,True,Negative,0.101
+ASD000314,34,Female,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,1,2,False,False,False,False,False,True,Negative,0.014
+ASD000315,47,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,1,False,False,False,False,False,True,Negative,0.142
+ASD000316,46,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,1,False,False,False,False,False,False,Not Screened,0.006
+ASD000317,55,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,3,2,True,24.0,55.0,31.0,11,32,9,3,True,False,False,True,True,False,Not Screened,0.047
+ASD000318,27,Male,Rural,Secondary,False,False,True,False,False,False,Positive,Moderate,5,4,True,15.0,27.0,12.0,21,43,11,3,True,False,False,False,False,True,Positive,0.055
+ASD000319,56,Male,Rural,None/Primary,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,2,2,False,False,True,False,False,True,Negative,0.04
+ASD000320,52,Male,Rural,None/Primary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,1,False,False,False,False,False,True,Negative,0.04
+ASD000321,40,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000322,67,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,2,False,False,False,False,False,False,Not Screened,0.164
+ASD000323,42,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,1,1,False,False,True,False,False,True,Negative,0.061
+ASD000324,39,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,33,1,1,False,False,False,False,False,False,Not Screened,0.117
+ASD000325,46,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,1,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000326,39,Male,Urban,Secondary,False,False,True,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,2,False,False,False,False,False,True,Negative,0.187
+ASD000327,44,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000328,40,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Mild,4,3,True,17.0,36.0,19.0,15,33,6,2,True,False,False,True,False,False,Not Screened,0.078
+ASD000329,29,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,3,1,False,False,False,False,False,True,Negative,0.142
+ASD000330,28,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,4,1,False,False,False,False,False,True,Negative,0.025
+ASD000331,73,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,29,1,1,False,False,False,False,False,True,Negative,0.059
+ASD000332,55,Female,Urban,Secondary,False,True,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000333,49,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000334,33,Female,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,2,False,False,True,False,False,True,Negative,0.014
+ASD000335,62,Male,Urban,None/Primary,False,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,2,1,False,True,False,False,False,True,Negative,0.091
+ASD000336,72,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000337,36,Male,Urban,Secondary,False,True,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,32,1,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000338,64,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000339,70,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000340,47,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,2,1,False,False,False,False,False,True,Negative,0.047
+ASD000341,25,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,23,2,2,False,False,False,False,False,True,Negative,0.101
+ASD000342,53,Male,Rural,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,30,2,2,False,False,False,False,False,True,Negative,0.033
+ASD000343,41,Male,Urban,Secondary,False,False,False,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000344,50,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,1,2,False,False,False,False,False,True,Negative,0.07
+ASD000345,40,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,21,2,2,False,False,False,False,False,True,False Positive,0.025
+ASD000346,33,Male,Urban,Secondary,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000347,32,Male,Urban,Higher,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,1,1,False,False,False,True,False,False,Not Screened,0.175
+ASD000348,42,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000349,45,Male,Rural,None/Primary,False,True,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,1,2,False,False,False,False,False,True,Negative,0.048
+ASD000350,27,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,31,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000351,52,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,Negative,0.142
+ASD000352,44,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,21,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000353,52,Female,Urban,None/Primary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,1,1,False,False,False,False,False,False,Not Screened,0.019
+ASD000354,38,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,21,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000355,52,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000356,55,Female,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,1,False,False,False,False,False,True,Negative,0.014
+ASD000357,35,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000358,51,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,1,1,False,False,False,False,False,True,Negative,0.015
+ASD000359,42,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,2,False,False,False,False,False,True,Negative,0.055
+ASD000360,41,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000361,43,Female,Rural,Secondary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,2,False,False,False,False,False,True,Negative,0.017
+ASD000362,30,Male,Rural,Secondary,False,False,False,False,False,False,Positive,Mild,2,2,True,30.0,30.0,0.0,13,41,5,1,True,False,False,True,True,True,Positive,0.042
+ASD000363,33,Female,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,1,False,True,False,False,False,True,Negative,0.008
+ASD000364,34,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000365,26,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000366,32,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000367,45,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,28,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000368,14,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,1,1,False,False,False,False,False,True,Negative,0.059
+ASD000369,12,Male,Urban,Secondary,False,False,False,True,False,False,Positive,Moderate,3,5,False,12.0,12.0,0.0,25,44,18,3,False,False,True,True,False,True,Positive,0.101
+ASD000370,76,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000371,49,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000372,76,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,2,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000373,45,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,2,1,False,True,False,False,False,True,False Positive,0.142
+ASD000374,14,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,24,1,2,False,False,True,False,False,False,Not Screened,0.109
+ASD000375,46,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,23,2,2,False,False,False,False,False,True,Negative,0.059
+ASD000376,37,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,28,1,2,False,False,False,False,False,False,Not Screened,0.015
+ASD000377,53,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Severe,8,7,True,15.0,53.0,38.0,32,51,11,6,True,False,True,True,False,False,Not Screened,0.047
+ASD000378,30,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000379,53,Male,Urban,Secondary,True,False,False,True,False,False,Positive,Mild,2,2,False,22.0,47.0,25.0,12,37,10,2,False,False,False,True,False,False,Not Screened,0.125
+ASD000380,65,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000381,12,Male,Urban,Secondary,False,True,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000382,71,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,2,1,False,False,False,False,False,False,Not Screened,0.01
+ASD000383,49,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,1,1,False,False,False,False,False,False,Not Screened,0.012
+ASD000384,34,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000385,54,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000386,52,Female,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,1,False,False,False,False,False,False,Not Screened,0.009
+ASD000387,52,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,2,False,False,False,False,False,True,False Positive,0.101
+ASD000388,18,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000389,52,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,2,1,False,False,False,False,False,True,Negative,0.142
+ASD000390,22,Male,Rural,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,20,2,2,False,False,False,False,False,True,Negative,0.076
+ASD000391,45,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,24,1,2,False,False,False,False,False,True,False Positive,0.047
+ASD000392,60,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,29,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000393,20,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000394,65,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,2,2,False,False,False,False,False,True,Negative,0.059
+ASD000395,55,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,2,False,False,False,False,False,True,Negative,0.117
+ASD000396,53,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,1,False,False,False,False,True,True,Negative,0.042
+ASD000397,48,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000398,48,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,2,False,False,False,True,False,False,Not Screened,0.101
+ASD000399,29,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000400,40,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,28,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000401,17,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000402,34,Male,Rural,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,31,2,2,False,False,False,False,False,False,Not Screened,0.049
+ASD000403,35,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,30,1,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000404,23,Female,Rural,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,1,1,False,False,False,False,False,True,Negative,0.012
+ASD000405,56,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,20,2,1,False,False,False,False,False,True,False Positive,0.059
+ASD000406,68,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,3,1,False,False,False,False,False,False,Not Screened,0.142
+ASD000407,74,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000408,48,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000409,45,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000410,41,Male,Urban,Higher,False,False,False,False,False,False,Positive,Moderate,3,4,True,19.0,32.0,13.0,24,47,9,4,True,False,False,True,False,False,Not Screened,0.109
+ASD000411,23,Female,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,3,1,False,False,False,False,False,True,Negative,0.014
+ASD000412,33,Male,Urban,Higher,False,False,False,False,False,False,Positive,Moderate,4,5,True,18.0,33.0,15.0,21,42,5,3,False,False,False,True,False,True,Positive,0.109
+ASD000413,55,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,28,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000414,71,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000415,78,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000416,33,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,1,True,False,False,False,False,False,Not Screened,0.042
+ASD000417,24,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,2,2,False,False,False,False,False,True,Negative,0.038
+ASD000418,39,Male,Rural,Secondary,True,True,False,False,False,False,Positive,Mild,5,3,False,12.0,39.0,27.0,19,29,10,3,True,True,False,True,True,True,False Negative,0.067
+ASD000419,44,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000420,51,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,30,1,3,False,False,False,False,False,False,Not Screened,0.025
+ASD000421,37,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,28,1,2,False,False,False,False,False,False,Not Screened,0.164
+ASD000422,55,Male,Urban,Secondary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,False,False,False,False,Not Screened,0.125
+ASD000423,65,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000424,18,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,1,False,False,False,True,False,False,Not Screened,0.047
+ASD000425,50,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000426,18,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,2,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000427,68,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000428,24,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000429,16,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,27,3,2,False,False,False,False,False,True,Negative,0.078
+ASD000430,51,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,1,False,False,False,False,False,False,Not Screened,0.027
+ASD000431,50,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,False,False,False,True,False Positive,0.101
+ASD000432,35,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,2,False,False,False,True,False,False,Not Screened,0.025
+ASD000433,61,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,1,False,False,False,False,False,True,Negative,0.142
+ASD000434,14,Male,Rural,Higher,False,False,False,False,False,True,Positive,Severe,7,4,False,14.0,14.0,0.0,27,59,20,5,False,False,True,True,False,True,Positive,0.088
+ASD000435,74,Male,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,2,False,False,False,False,False,True,Negative,0.091
+ASD000436,28,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,1,False,False,False,False,False,False,Not Screened,0.038
+ASD000437,20,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,1,2,False,False,False,False,True,False,Not Screened,0.109
+ASD000438,49,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,3,3,False,False,False,False,False,False,Not Screened,0.061
+ASD000439,31,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,2,False,False,False,False,False,True,Negative,0.061
+ASD000440,51,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,2,False,False,False,False,False,True,Negative,0.117
+ASD000441,42,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,False,True,False,True,Negative,0.109
+ASD000442,43,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,31,3,1,False,False,False,False,False,True,Negative,0.142
+ASD000443,52,Male,Urban,Secondary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000444,59,Female,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,1,False,False,False,True,False,True,Negative,0.015
+ASD000445,25,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,2,2,False,False,False,False,False,True,Negative,0.109
+ASD000446,51,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000447,35,Female,Urban,None/Primary,True,True,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,1,1,False,False,False,False,False,False,Not Screened,0.022
+ASD000448,44,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,27,2,1,False,False,False,False,True,False,Not Screened,0.142
+ASD000449,57,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,22,1,1,False,False,False,False,False,False,Not Screened,0.01
+ASD000450,28,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000451,41,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,23,2,1,False,False,False,False,False,True,Negative,0.027
+ASD000452,42,Male,Urban,Secondary,False,True,False,False,False,True,Positive,Severe,6,6,True,27.0,42.0,15.0,31,59,14,3,False,False,False,True,False,True,Positive,0.152
+ASD000453,59,Male,Urban,Secondary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,34,2,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000454,72,Male,Urban,Higher,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,1,1,False,False,False,False,False,True,Negative,0.175
+ASD000455,63,Female,Urban,Secondary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,1,False,False,False,False,False,True,Negative,0.031
+ASD000456,31,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000457,65,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,1,1,False,False,False,False,False,True,Negative,0.061
+ASD000458,39,Male,Rural,Higher,False,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,2,False,False,False,False,False,True,Negative,0.115
+ASD000459,64,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000460,15,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000461,31,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,2,False,True,False,False,False,True,False Positive,0.059
+ASD000462,38,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,1,False,False,False,True,False,False,Not Screened,0.061
+ASD000463,15,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000464,44,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000465,36,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,1,False,False,False,False,False,True,False Positive,0.038
+ASD000466,52,Female,Urban,Secondary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,22,2,2,False,False,False,False,False,True,Negative,0.038
+ASD000467,54,Female,Urban,Secondary,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,2,2,True,False,False,False,True,True,Negative,0.038
+ASD000468,76,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,18,1,1,False,False,False,False,False,False,Not Screened,0.142
+ASD000469,41,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000470,13,Male,Urban,Secondary,False,True,False,False,False,False,Positive,Moderate,3,3,True,12.0,13.0,1.0,18,52,16,3,True,True,True,True,True,True,Positive,0.101
+ASD000471,25,Male,Urban,Secondary,False,False,True,False,False,False,Positive,Severe,7,5,False,25.0,25.0,0.0,25,55,15,4,False,True,False,True,False,True,Positive,0.101
+ASD000472,41,Male,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000473,53,Male,Urban,Higher,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,3,1,False,False,False,False,False,True,False Positive,0.142
+ASD000474,25,Female,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,False,False,True,True,Negative,0.035
+ASD000475,80,Female,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,29,2,2,False,False,False,False,False,True,Negative,0.035
+ASD000476,52,Male,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000477,12,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,2,False,False,True,False,False,True,Negative,0.117
+ASD000478,28,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,3,1,False,False,False,False,False,False,Not Screened,0.07
+ASD000479,46,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,2,1,False,False,False,True,False,True,Negative,0.078
+ASD000480,29,Female,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,3,1,False,False,False,False,False,True,Negative,0.022
+ASD000481,62,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000482,61,Male,Urban,None/Primary,False,False,True,False,False,False,Positive,Mild,3,3,True,29.0,61.0,32.0,19,30,9,1,True,False,False,False,False,False,Not Screened,0.061
+ASD000483,55,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000484,26,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,20,3,2,False,False,False,True,False,True,Negative,0.101
+ASD000485,38,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,30,1,2,False,False,False,False,False,True,Negative,0.029
+ASD000486,45,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000487,20,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,2,True,False,False,False,False,True,Negative,0.047
+ASD000488,52,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,False,Not Screened,0.117
+ASD000489,40,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000490,25,Female,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,False,False,False,False,True,Negative,0.018
+ASD000491,57,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,2,1,False,False,False,False,False,False,Not Screened,0.117
+ASD000492,36,Female,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,False,False,False,False,True,Negative,0.035
+ASD000493,21,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,3,2,False,False,False,False,False,True,False Positive,0.117
+ASD000494,56,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000495,38,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,2,1,False,False,False,False,False,True,Negative,0.142
+ASD000496,32,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,22,2,1,False,False,False,False,False,True,Negative,0.047
+ASD000497,44,Female,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,2,2,False,False,False,False,False,True,Negative,0.015
+ASD000498,59,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,20,2,1,False,False,True,True,True,False,Not Screened,0.047
+ASD000499,59,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,False,False,False,False,False,True,Negative,0.142
+ASD000500,37,Male,Rural,None/Primary,False,True,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,1,False,False,False,False,False,True,Negative,0.06
+ASD000501,31,Female,Rural,Secondary,True,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,2,False,False,False,False,False,True,Negative,0.017
+ASD000502,62,Male,Urban,Higher,False,False,False,False,False,False,Positive,Mild,4,2,True,12.0,32.0,20.0,18,22,6,1,True,False,False,True,False,False,Not Screened,0.109
+ASD000503,70,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,33,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000504,18,Male,Urban,Higher,False,False,True,False,True,False,Positive,Severe,9,7,True,18.0,18.0,0.0,30,69,9,4,False,False,False,True,False,False,Not Screened,0.175
+ASD000505,48,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,2,2,False,False,False,True,False,False,Not Screened,0.047
+ASD000506,68,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,19,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000507,17,Female,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,1,False,False,False,False,False,True,Negative,0.035
+ASD000508,47,Male,Rural,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,1,False,False,False,False,False,False,Not Screened,0.033
+ASD000509,50,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000510,54,Male,Urban,Secondary,True,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,1,2,False,False,False,False,False,False,Not Screened,0.125
+ASD000511,43,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,2,False,False,False,False,False,False,Not Screened,0.059
+ASD000512,30,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,1,1,False,False,False,False,False,True,Negative,0.025
+ASD000513,39,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000514,42,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,2,1,False,False,False,False,False,True,False Positive,0.019
+ASD000515,49,Male,Urban,Secondary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,1,False,False,False,False,False,True,Negative,0.152
+ASD000516,22,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,2,False,False,True,False,False,True,False Positive,0.078
+ASD000517,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000518,51,Male,Rural,Secondary,False,False,False,True,False,False,Positive,Severe,7,3,True,18.0,51.0,33.0,29,52,16,4,False,False,False,False,True,True,Positive,0.055
+ASD000519,43,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,2,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000520,35,Male,Rural,None/Primary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,1,2,False,False,False,False,False,True,Negative,0.049
+ASD000521,57,Male,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,30,2,2,False,False,False,False,False,True,Negative,0.101
+ASD000522,36,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,3,1,False,False,False,True,False,True,Negative,0.042
+ASD000523,46,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000524,52,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000525,47,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,30,3,2,False,False,False,False,False,True,Negative,0.042
+ASD000526,46,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,True,Negative,0.061
+ASD000527,39,Male,Rural,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,1,2,False,False,False,False,False,True,False Positive,0.033
+ASD000528,53,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,2,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000529,47,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000530,50,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,29,1,2,False,False,False,False,False,True,False Positive,0.012
+ASD000531,20,Female,Rural,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,False,False,False,True,Negative,0.008
+ASD000532,52,Male,Urban,Secondary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,2,1,False,False,False,False,False,False,Not Screened,0.152
+ASD000533,39,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,20,2,2,False,False,False,False,False,True,Negative,0.109
+ASD000534,27,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,1,False,False,False,False,False,True,Negative,0.059
+ASD000535,68,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,32,3,1,False,False,False,False,False,True,Negative,0.047
+ASD000536,42,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,1,False,False,False,False,False,True,Negative,0.059
+ASD000537,64,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,25,1,2,False,False,False,False,False,True,Negative,0.015
+ASD000538,25,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,2,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000539,53,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000540,65,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,True,Negative,0.055
+ASD000541,26,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,24,4,1,False,False,False,False,False,True,Negative,0.109
+ASD000542,56,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000543,67,Male,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,24,2,3,False,False,False,False,False,True,Negative,0.076
+ASD000544,22,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,3,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000545,12,Male,Urban,Secondary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000546,26,Male,Rural,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,2,False,False,False,False,False,True,Negative,0.055
+ASD000547,43,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000548,39,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,3,2,False,False,False,False,False,True,Negative,0.078
+ASD000549,24,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,3,2,False,False,False,False,False,True,Negative,0.042
+ASD000550,52,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,29,1,1,False,False,False,False,False,True,Negative,0.01
+ASD000551,18,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,3,1,False,False,False,False,False,True,Negative,0.109
+ASD000552,49,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,1,False,False,False,True,False,True,Negative,0.042
+ASD000553,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000554,28,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,3,1,False,False,False,False,True,True,False Positive,0.042
+ASD000555,32,Male,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,1,2,False,False,False,False,False,True,Negative,0.091
+ASD000556,76,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000557,13,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,1,False,False,False,False,False,True,Negative,0.038
+ASD000558,62,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000559,45,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000560,69,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,1,False,False,False,True,False,True,Negative,0.109
+ASD000561,56,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,1,False,False,False,False,False,True,Negative,0.033
+ASD000562,54,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,1,False,False,False,False,False,True,False Positive,0.055
+ASD000563,33,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000564,66,Male,Urban,None/Primary,True,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,2,2,False,False,False,False,False,True,Negative,0.075
+ASD000565,46,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,2,False,False,False,False,False,True,Negative,0.047
+ASD000566,41,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,18,1,3,False,False,False,False,False,True,False Positive,0.025
+ASD000567,35,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,1,2,False,False,True,False,False,True,Negative,0.047
+ASD000568,19,Male,Rural,Secondary,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,1,1,False,False,False,True,False,True,Negative,0.082
+ASD000569,35,Male,Urban,Higher,False,True,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,2,True,False,False,False,False,True,Negative,0.175
+ASD000570,12,Female,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,2,2,False,False,False,False,False,True,Negative,0.018
+ASD000571,14,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Mild,2,3,True,14.0,14.0,0.0,16,31,10,1,False,True,True,False,False,True,False Negative,0.078
+ASD000572,36,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,1,1,False,False,False,False,False,False,Not Screened,0.117
+ASD000573,19,Male,Rural,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,1,False,False,True,False,False,True,False Positive,0.076
+ASD000574,34,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,28,2,1,False,False,False,False,False,False,Not Screened,0.012
+ASD000575,33,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,3,2,False,False,False,False,False,True,Negative,0.078
+ASD000576,32,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,19,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000577,29,Male,Urban,Higher,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,3,1,False,False,False,False,False,True,Negative,0.175
+ASD000578,38,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000579,31,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,3,2,False,False,False,True,False,True,False Positive,0.047
+ASD000580,56,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,1,3,True,25.0,32.0,7.0,17,41,6,3,False,False,False,True,False,False,Not Screened,0.047
+ASD000581,32,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,33,3,2,False,False,False,False,True,True,False Positive,0.027
+ASD000582,33,Male,Rural,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,1,False,False,False,False,False,False,Not Screened,0.076
+ASD000583,19,Female,Rural,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,1,False,True,False,False,False,True,Negative,0.008
+ASD000584,20,Female,Urban,None/Primary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,2,1,False,False,False,False,False,True,Negative,0.023
+ASD000585,29,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,1,False,False,False,False,False,True,Negative,0.012
+ASD000586,84,Male,Rural,Higher,False,False,False,True,False,False,Positive,Moderate,1,3,True,15.0,22.0,7.0,22,42,7,3,False,False,False,False,False,True,Positive,0.076
+ASD000587,47,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,2,1,False,23.0,42.0,19.0,14,36,7,2,True,True,False,True,False,True,Positive,0.047
+ASD000588,27,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,True,False,False,True,False,True,Negative,0.109
+ASD000589,39,Male,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000590,12,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000591,65,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000592,29,Male,Urban,Secondary,True,False,True,False,False,False,Positive,Mild,3,3,False,15.0,29.0,14.0,12,28,6,3,False,False,False,False,True,True,Positive,0.125
+ASD000593,51,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000594,32,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,False,False,False,False,False,True,Negative,0.059
+ASD000595,67,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000596,41,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,2,False,False,True,False,False,True,False Positive,0.025
+ASD000597,51,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000598,50,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,3,False,False,False,True,True,True,Negative,0.019
+ASD000599,65,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,32,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000600,37,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,1,False,False,False,False,False,True,Negative,0.01
+ASD000601,18,Female,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,3,2,False,False,False,False,False,True,Negative,0.015
+ASD000602,37,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,31,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000603,35,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,1,False,False,False,False,False,True,Negative,0.027
+ASD000604,42,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,2,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000605,12,Female,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,34,1,2,False,False,False,False,False,True,False Positive,0.025
+ASD000606,42,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,1,3,False,False,False,False,False,True,Negative,0.042
+ASD000607,48,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,31,3,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000608,36,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000609,38,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000610,21,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,2,1,False,False,False,False,False,False,Not Screened,0.019
+ASD000611,13,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,3,False,False,False,False,False,True,Negative,0.042
+ASD000612,63,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,2,False,False,False,False,False,True,Negative,0.117
+ASD000613,32,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000614,25,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,2,False,False,False,False,False,False,Not Screened,0.033
+ASD000615,44,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,1,False,False,False,False,False,True,Negative,0.029
+ASD000616,40,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000617,65,Female,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,2,2,False,False,False,False,False,False,Not Screened,0.015
+ASD000618,58,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,2,1,False,False,False,False,False,True,Negative,0.025
+ASD000619,65,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,26,3,3,False,False,True,False,False,True,Negative,0.042
+ASD000620,55,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,2,2,False,False,False,False,False,True,Negative,0.006
+ASD000621,73,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Moderate,7,2,False,12.0,26.0,14.0,19,52,14,2,False,False,False,False,True,False,Not Screened,0.047
+ASD000622,26,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000623,48,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000624,54,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,True,False,False,True,Negative,0.142
+ASD000625,26,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,2,False,False,False,False,False,False,Not Screened,0.142
+ASD000626,28,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,3,2,False,False,False,False,False,True,Negative,0.047
+ASD000627,53,Male,Urban,Higher,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,2,False,False,False,False,False,True,Negative,0.175
+ASD000628,47,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000629,42,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000630,48,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000631,35,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000632,60,Female,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,1,1,False,False,False,False,False,False,Not Screened,0.015
+ASD000633,49,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000634,19,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,6,20,1,2,False,False,False,False,False,True,False Positive,0.033
+ASD000635,52,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,2,False,False,False,False,False,False,Not Screened,0.117
+ASD000636,79,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000637,73,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000638,46,Male,Rural,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,1,False,False,False,False,False,True,Negative,0.076
+ASD000639,30,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,3,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000640,58,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,20,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000641,49,Male,Urban,Secondary,False,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,True,Negative,0.152
+ASD000642,12,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,1,2,False,False,False,False,False,True,Negative,0.164
+ASD000643,22,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,2,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000644,37,Male,Urban,Secondary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,True,False,False,True,False Positive,0.125
+ASD000645,44,Male,Rural,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,1,False,False,False,False,False,True,Negative,0.033
+ASD000646,53,Female,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,1,False,False,False,False,False,True,Negative,0.035
+ASD000647,44,Male,Urban,Higher,False,False,False,False,False,False,Positive,Mild,3,3,False,12.0,32.0,20.0,16,23,8,1,True,False,True,False,False,True,Positive,0.109
+ASD000648,43,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000649,12,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,3,2,False,False,False,False,False,True,Negative,0.055
+ASD000650,45,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,1,2,False,False,True,False,False,False,Not Screened,0.042
+ASD000651,46,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,2,1,False,False,True,False,False,False,Not Screened,0.025
+ASD000652,42,Male,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,2,2,False,False,False,False,False,False,Not Screened,0.088
+ASD000653,77,Male,Rural,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,22,1,2,False,False,False,False,False,False,Not Screened,0.076
+ASD000654,15,Male,Urban,Higher,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,True,Negative,0.213
+ASD000655,39,Female,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,22,3,2,False,False,False,False,False,True,Negative,0.015
+ASD000656,73,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,1,False,False,False,False,False,True,Negative,0.117
+ASD000657,63,Male,Rural,Higher,False,False,False,False,False,False,Positive,Mild,4,3,False,24.0,59.0,35.0,10,21,3,3,False,False,False,True,False,False,Not Screened,0.059
+ASD000658,30,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,2,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000659,59,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000660,45,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,1,1,False,False,False,True,False,True,False Positive,0.109
+ASD000661,38,Male,Rural,None/Primary,True,False,False,False,True,False,Positive,Mild,4,1,True,19.0,38.0,19.0,23,24,9,4,False,True,False,False,False,False,Not Screened,0.04
+ASD000662,49,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,2,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000663,33,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,26,3,1,False,False,False,False,False,True,Negative,0.047
+ASD000664,67,Male,Urban,Secondary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,1,False,False,False,False,False,True,Negative,0.125
+ASD000665,61,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,4,3,True,12.0,54.0,42.0,16,30,3,2,True,False,True,True,False,True,Positive,0.047
+ASD000666,22,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000667,40,Male,Urban,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,False,False,False,False,Not Screened,0.152
+ASD000668,51,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,23,3,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000669,29,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,2,False,False,False,False,False,True,Negative,0.109
+ASD000670,75,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,2,2,False,False,False,False,False,True,False Positive,0.047
+ASD000671,58,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,3,False,False,False,False,False,False,Not Screened,0.059
+ASD000672,71,Male,Urban,Secondary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,1,False,False,False,False,False,False,Not Screened,0.125
+ASD000673,54,Male,Urban,Higher,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,18,1,2,False,False,False,False,False,True,Negative,0.142
+ASD000674,43,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000675,32,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,4,2,False,False,False,False,True,False,Not Screened,0.117
+ASD000676,32,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000677,36,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,3,1,False,False,False,False,False,True,Negative,0.055
+ASD000678,46,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000679,12,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,1,False,False,False,True,False,False,Not Screened,0.047
+ASD000680,27,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,1,2,False,False,False,False,False,True,False Positive,0.01
+ASD000681,45,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,True,Negative,0.07
+ASD000682,38,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,2,2,False,False,True,False,False,True,Negative,0.029
+ASD000683,27,Female,Urban,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,3,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000684,25,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,2,2,False,False,False,False,False,True,False Positive,0.012
+ASD000685,29,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,2,False,False,False,False,False,True,Negative,0.038
+ASD000686,35,Male,Rural,Higher,True,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,22,1,1,False,False,False,False,False,True,Negative,0.094
+ASD000687,66,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,True,False,False,False,Not Screened,0.019
+ASD000688,52,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,2,False,False,False,True,False,True,Negative,0.078
+ASD000689,51,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,2,2,False,False,False,False,False,True,Negative,0.027
+ASD000690,41,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,2,False,False,False,False,False,True,Negative,0.061
+ASD000691,35,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,False,False,True,Negative,0.055
+ASD000692,12,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,2,2,False,False,False,False,False,True,False Positive,0.055
+ASD000693,40,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,1,2,False,False,False,False,False,True,Negative,0.012
+ASD000694,58,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000695,50,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000696,26,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,30,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000697,31,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,3,1,False,False,False,True,False,True,Negative,0.117
+ASD000698,66,Female,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,26,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000699,62,Male,Rural,None/Primary,False,True,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,1,False,False,False,False,False,False,Not Screened,0.04
+ASD000700,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,2,False,False,False,False,False,True,Negative,0.109
+ASD000701,30,Female,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.035
+ASD000702,23,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,2,False,False,False,False,False,True,Negative,0.059
+ASD000703,33,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,1,False,False,False,False,False,True,Negative,0.055
+ASD000704,50,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000705,68,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,3,1,False,False,True,False,False,True,Negative,0.047
+ASD000706,26,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000707,47,Female,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,1,2,False,False,False,False,False,False,Not Screened,0.035
+ASD000708,45,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,26,2,1,False,False,False,False,False,False,Not Screened,0.033
+ASD000709,81,Female,Rural,None/Primary,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,2,False,False,False,False,False,True,False Positive,0.01
+ASD000710,58,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,1,2,False,False,True,False,False,False,Not Screened,0.101
+ASD000711,53,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,1,False,False,False,True,False,False,Not Screened,0.059
+ASD000712,36,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,2,1,False,False,False,False,False,True,False Positive,0.164
+ASD000713,57,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,3,1,False,False,False,False,False,True,Negative,0.006
+ASD000714,60,Female,Rural,None/Primary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,22,3,2,False,False,False,False,False,False,Not Screened,0.012
+ASD000715,36,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,33,2,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000716,65,Female,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,2,False,False,False,False,False,True,Negative,0.015
+ASD000717,29,Female,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,19,1,1,False,False,False,False,False,False,Not Screened,0.018
+ASD000718,53,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,28,2,1,False,False,True,False,False,True,Negative,0.027
+ASD000719,47,Male,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000720,53,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,25,1,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000721,45,Male,Rural,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,23,1,1,False,False,False,False,False,False,Not Screened,0.033
+ASD000722,12,Male,Urban,None/Primary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,1,False,False,False,True,False,False,Not Screened,0.091
+ASD000723,25,Female,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000724,30,Male,Rural,Secondary,False,True,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,2,2,False,False,False,False,False,True,Negative,0.101
+ASD000725,51,Male,Urban,Secondary,False,False,True,False,False,False,Positive,Moderate,4,4,False,12.0,34.0,22.0,22,43,10,3,False,False,False,False,False,False,Not Screened,0.101
+ASD000726,12,Male,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,1,False,False,False,True,False,False,Not Screened,0.063
+ASD000727,49,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,2,1,False,False,False,False,False,True,Negative,0.061
+ASD000728,32,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,True,False,False,False,False,True,Negative,0.109
+ASD000729,46,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Severe,8,6,True,19.0,44.0,25.0,34,65,16,6,True,True,True,True,False,False,Not Screened,0.078
+ASD000730,12,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,2,2,False,False,False,False,False,True,Negative,0.101
+ASD000731,23,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,1,2,False,False,False,False,False,True,Negative,0.059
+ASD000732,12,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,30,2,2,False,False,False,False,False,True,Negative,0.078
+ASD000733,12,Male,Rural,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,26,1,1,False,False,False,False,True,False,Not Screened,0.033
+ASD000734,30,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,24,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000735,36,Male,Rural,None/Primary,False,True,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,18,1,2,False,False,False,False,False,True,Negative,0.06
+ASD000736,32,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000737,12,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,2,2,False,False,False,False,False,True,Negative,0.142
+ASD000738,56,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,25,1,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000739,54,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,Negative,0.029
+ASD000740,29,Male,Rural,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,27,1,2,False,False,False,False,False,True,Negative,0.033
+ASD000741,41,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,36,1,1,False,False,False,False,False,True,Negative,0.07
+ASD000742,69,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,False,False,False,False,Not Screened,0.027
+ASD000743,24,Male,Rural,Secondary,True,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,2,False,False,False,False,False,True,Negative,0.067
+ASD000744,38,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,30,2,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000745,53,Male,Urban,Higher,False,False,False,True,False,False,Positive,Mild,2,1,True,29.0,43.0,14.0,11,39,9,1,False,False,True,False,False,False,Not Screened,0.142
+ASD000746,40,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,1,False,False,False,False,False,True,False Positive,0.078
+ASD000747,57,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Moderate,6,5,True,12.0,44.0,32.0,21,38,13,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000748,49,Female,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000749,57,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,21,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000750,28,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,2,1,False,False,False,False,False,True,Negative,0.055
+ASD000751,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000752,40,Male,Rural,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,1,1,False,False,False,False,False,True,Negative,0.033
+ASD000753,12,Female,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000754,30,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,False,Not Screened,0.027
+ASD000755,54,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,1,1,False,False,False,False,False,True,False Positive,0.042
+ASD000756,49,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,24,1,3,False,False,False,False,False,False,Not Screened,0.078
+ASD000757,42,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,False,Not Screened,0.164
+ASD000758,63,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,1,1,False,False,True,False,False,False,Not Screened,0.059
+ASD000759,27,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000760,61,Male,Rural,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,3,2,False,False,False,False,False,True,Negative,0.055
+ASD000761,26,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,18,24,1,2,False,False,False,False,False,True,False Positive,0.038
+ASD000762,52,Male,Urban,None/Primary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,1,2,False,False,True,False,False,False,Not Screened,0.091
+ASD000763,52,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,2,2,False,False,False,True,False,True,Negative,0.033
+ASD000764,61,Female,Urban,Higher,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,2,1,False,False,False,False,False,True,Negative,0.044
+ASD000765,56,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,3,1,False,False,False,False,False,True,Negative,0.164
+ASD000766,31,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000767,34,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,2,False,False,False,False,False,True,False Positive,0.042
+ASD000768,31,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,18,1,2,False,False,False,False,False,False,Not Screened,0.012
+ASD000769,42,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,21,1,2,True,False,False,False,False,True,Negative,0.033
+ASD000770,54,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000771,56,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000772,28,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,32,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000773,80,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,False,False,False,True,Negative,0.042
+ASD000774,39,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,1,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000775,76,Female,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,24,2,1,False,False,False,False,False,False,Not Screened,0.008
+ASD000776,77,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,30,1,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000777,33,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,3,False,False,False,False,False,False,Not Screened,0.078
+ASD000778,21,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,2,True,False,False,False,False,True,Negative,0.059
+ASD000779,27,Female,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,18,1,2,False,False,False,False,False,True,Negative,0.009
+ASD000780,32,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,29,2,2,False,False,False,False,False,False,Not Screened,0.101
+ASD000781,92,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000782,15,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,2,False,False,False,False,False,True,False Positive,0.142
+ASD000783,36,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,True,False,True,Negative,0.109
+ASD000784,44,Male,Urban,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,False,False,False,Not Screened,0.142
+ASD000785,61,Male,Urban,None/Primary,False,False,True,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.075
+ASD000786,12,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,33,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000787,30,Male,Urban,Higher,False,False,False,False,False,False,Positive,Mild,1,3,False,13.0,30.0,17.0,18,21,10,1,True,False,False,True,False,True,Positive,0.109
+ASD000788,13,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,True,False Positive,0.047
+ASD000789,59,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000790,35,Male,Urban,None/Primary,False,True,True,False,False,False,Positive,Moderate,3,6,True,12.0,35.0,23.0,24,41,7,3,True,True,True,True,True,False,Not Screened,0.075
+ASD000791,30,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000792,61,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,1,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000793,41,Male,Urban,Secondary,False,False,False,True,False,True,Positive,Moderate,2,2,True,29.0,32.0,3.0,13,35,11,5,True,False,True,False,False,True,Positive,0.152
+ASD000794,60,Male,Rural,None/Primary,False,False,False,False,False,False,Positive,Severe,7,8,True,20.0,47.0,27.0,25,65,13,5,True,False,False,False,True,True,Positive,0.025
+ASD000795,35,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,18,26,2,2,False,False,False,False,False,True,False Positive,0.078
+ASD000796,47,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,3,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000797,71,Male,Urban,Higher,False,True,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,1,2,False,False,False,False,False,True,Negative,0.262
+ASD000798,33,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000799,48,Female,Rural,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,1,1,False,False,False,False,False,True,Negative,0.016
+ASD000800,51,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000801,39,Male,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,3,1,False,False,False,False,False,True,Negative,0.101
+ASD000802,30,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000803,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,2,2,False,False,False,False,False,False,Not Screened,0.109
+ASD000804,45,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,28,1,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000805,20,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,21,1,3,False,False,False,False,False,False,Not Screened,0.078
+ASD000806,53,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,1,False,False,False,False,False,True,Negative,0.025
+ASD000807,27,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,3,1,False,False,False,False,False,True,Negative,0.117
+ASD000808,34,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,25,3,1,False,False,False,True,False,False,Not Screened,0.059
+ASD000809,61,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,2,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000810,30,Female,Rural,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,2,2,False,False,False,False,False,True,Negative,0.02
+ASD000811,41,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,2,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000812,43,Male,Rural,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,25,1,1,False,True,False,False,False,True,Negative,0.033
+ASD000813,22,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000814,48,Male,Urban,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,1,False,False,False,True,False,True,Negative,0.152
+ASD000815,50,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,1,2,True,False,False,True,False,True,Negative,0.078
+ASD000816,35,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,29,1,2,False,False,False,False,False,True,Negative,0.042
+ASD000817,43,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000818,64,Female,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,30,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000819,63,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,31,1,1,False,True,False,True,False,True,False Positive,0.101
+ASD000820,78,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000821,39,Female,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,1,False,False,False,False,False,True,Negative,0.018
+ASD000822,21,Female,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,29,3,1,False,False,False,False,False,True,Negative,0.025
+ASD000823,55,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,False,False,False,Not Screened,0.142
+ASD000824,39,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000825,44,Male,Urban,Secondary,True,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,1,False,False,False,False,False,True,Negative,0.125
+ASD000826,53,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,16,24,2,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000827,78,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,24,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000828,23,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,2,False,False,False,True,False,True,Negative,0.047
+ASD000829,62,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,1,False,False,False,False,False,True,Negative,0.061
+ASD000830,30,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000831,32,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,26,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000832,35,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,3,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000833,12,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,21,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000834,24,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,3,2,False,False,False,False,False,True,Negative,0.047
+ASD000835,20,Male,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,False,Not Screened,0.101
+ASD000836,54,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,30,3,2,False,False,False,False,False,True,Negative,0.042
+ASD000837,45,Female,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,1,2,False,False,False,False,False,True,Negative,0.015
+ASD000838,51,Male,Urban,None/Primary,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,2,1,False,False,False,False,False,False,Not Screened,0.075
+ASD000839,52,Female,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,2,2,False,False,False,True,False,True,Negative,0.022
+ASD000840,40,Female,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,2,False,False,False,False,False,False,Not Screened,0.014
+ASD000841,53,Male,Urban,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,1,1,True,False,False,False,False,False,Not Screened,0.101
+ASD000842,47,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,3,1,False,False,False,False,False,False,Not Screened,0.059
+ASD000843,12,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,18,2,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000844,51,Male,Urban,Higher,False,False,False,False,False,False,Positive,Severe,6,5,False,26.0,37.0,11.0,24,65,18,5,False,False,False,False,False,True,Positive,0.109
+ASD000845,77,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,28,3,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000846,24,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,24,2,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000847,65,Male,Rural,Secondary,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,1,False,False,False,False,False,False,Not Screened,0.067
+ASD000848,48,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,20,1,2,False,False,True,False,False,True,Negative,0.109
+ASD000849,48,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,False,False,False,True,Negative,0.142
+ASD000850,51,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,21,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000851,25,Male,Rural,None/Primary,True,False,False,True,False,False,Positive,Mild,3,4,False,12.0,25.0,13.0,12,42,8,2,False,False,False,True,False,False,Not Screened,0.04
+ASD000852,12,Male,Urban,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,19,2,2,False,False,True,False,False,False,Not Screened,0.07
+ASD000853,49,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,27,2,1,False,False,True,False,True,False,Not Screened,0.109
+ASD000854,27,Male,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,1,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000855,42,Female,Rural,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,26,2,2,False,False,False,False,False,True,Negative,0.019
+ASD000856,52,Male,Urban,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,1,1,False,False,False,False,False,False,Not Screened,0.142
+ASD000857,12,Male,Urban,Higher,False,True,False,False,False,True,Positive,Moderate,6,4,False,12.0,12.0,0.0,30,53,8,3,False,False,False,True,False,False,Not Screened,0.213
+ASD000858,40,Male,Urban,None/Primary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,28,1,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000859,48,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,29,1,2,False,False,False,False,False,True,Negative,0.078
+ASD000860,43,Male,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,30,1,2,False,False,False,False,False,False,Not Screened,0.088
+ASD000861,70,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,31,2,1,False,False,False,False,False,True,Negative,0.117
+ASD000862,69,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000863,26,Male,Urban,Secondary,False,False,False,False,False,True,Positive,Moderate,4,6,True,21.0,26.0,5.0,23,53,9,4,False,False,False,True,True,True,Positive,0.117
+ASD000864,48,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,31,1,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000865,21,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,30,2,1,False,False,False,False,False,False,Not Screened,0.101
+ASD000866,32,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,24,1,1,False,False,False,False,False,False,Not Screened,0.164
+ASD000867,12,Female,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,20,2,2,True,False,False,False,False,True,Negative,0.015
+ASD000868,40,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,1,False,False,False,False,False,True,Negative,0.042
+ASD000869,50,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,26,2,2,False,False,False,False,False,True,False Positive,0.059
+ASD000870,61,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,30,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000871,46,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000872,49,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,1,False,False,False,False,False,True,Negative,0.025
+ASD000873,80,Male,Urban,None/Primary,True,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,1,1,True,False,False,False,False,True,Negative,0.075
+ASD000874,45,Male,Rural,Secondary,True,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,False,Not Screened,0.082
+ASD000875,35,Male,Urban,Higher,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,1,2,False,False,False,False,False,True,Negative,0.142
+ASD000876,21,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000877,31,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000878,77,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,20,1,1,False,False,False,False,False,True,Negative,0.109
+ASD000879,64,Male,Rural,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,1,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000880,25,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000881,51,Male,Urban,Secondary,False,False,False,False,False,False,Positive,Moderate,5,4,True,24.0,40.0,16.0,21,44,7,3,True,False,False,True,False,True,Positive,0.078
+ASD000882,17,Male,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,1,2,False,False,False,False,False,False,Not Screened,0.117
+ASD000883,50,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000884,49,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,28,2,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000885,39,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000886,36,Male,Urban,Higher,False,False,True,True,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,31,2,1,False,False,False,False,False,False,Not Screened,0.207
+ASD000887,12,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,7,22,1,1,False,False,False,False,False,True,Negative,0.01
+ASD000888,61,Male,Rural,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,1,1,False,False,False,False,False,True,Negative,0.033
+ASD000889,75,Female,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,2,False,False,False,False,False,True,Negative,0.015
+ASD000890,70,Female,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,29,3,2,False,False,True,False,False,True,Negative,0.009
+ASD000891,75,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,23,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000892,18,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,24,3,2,False,False,False,False,False,False,Not Screened,0.078
+ASD000893,43,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000894,47,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,1,1,False,False,False,False,False,True,Negative,0.164
+ASD000895,39,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000896,45,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,2,1,False,False,False,False,False,False,Not Screened,0.038
+ASD000897,54,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000898,51,Female,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,2,1,False,False,False,False,False,False,Not Screened,0.025
+ASD000899,55,Female,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,32,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000900,34,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,24,1,2,False,False,False,False,False,True,Negative,0.025
+ASD000901,40,Male,Urban,Secondary,False,True,False,False,False,False,Positive,Severe,6,6,False,18.0,34.0,16.0,29,60,17,5,True,False,False,True,True,False,Not Screened,0.101
+ASD000902,21,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,1,2,False,False,False,False,False,True,Negative,0.006
+ASD000903,31,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,3,2,False,False,False,False,False,True,Negative,0.164
+ASD000904,37,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000905,69,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,18,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000906,69,Male,Urban,None/Primary,False,False,False,False,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,29,1,2,False,False,False,True,False,True,Negative,0.091
+ASD000907,39,Male,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,2,1,False,False,False,False,False,False,Not Screened,0.076
+ASD000908,41,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,3,2,False,False,False,False,True,False,Not Screened,0.019
+ASD000909,12,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000910,40,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,2,2,False,False,True,False,False,True,Negative,0.078
+ASD000911,57,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,29,2,2,False,False,False,False,False,True,Negative,0.012
+ASD000912,41,Female,Urban,None/Primary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,1,False,False,False,False,False,True,Negative,0.015
+ASD000913,36,Female,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,23,1,2,False,False,False,False,False,False,Not Screened,0.022
+ASD000914,54,Male,Urban,None/Primary,False,True,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,19,1,1,False,False,False,False,False,True,Negative,0.075
+ASD000915,42,Male,Rural,Secondary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,1,False,False,False,False,False,False,Not Screened,0.067
+ASD000916,32,Male,Rural,Higher,False,False,True,False,False,False,Positive,Moderate,4,4,True,25.0,32.0,7.0,20,48,14,2,False,False,False,False,False,False,Not Screened,0.076
+ASD000917,36,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,18,3,2,False,False,False,False,False,True,Negative,0.109
+ASD000918,22,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,19,2,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000919,16,Female,Urban,None/Primary,True,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,18,1,2,False,False,False,False,False,False,Not Screened,0.019
+ASD000920,84,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,19,1,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000921,63,Male,Urban,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,29,2,2,True,False,False,True,False,True,Negative,0.164
+ASD000922,23,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,2,1,False,False,False,False,False,True,Negative,0.055
+ASD000923,68,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,34,3,2,False,False,False,False,False,False,Not Screened,0.015
+ASD000924,50,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,2,1,False,False,False,False,False,False,Not Screened,0.042
+ASD000925,22,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,32,1,1,False,False,False,False,False,True,Negative,0.047
+ASD000926,39,Male,Rural,Higher,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,23,1,2,False,False,False,False,False,True,Negative,0.076
+ASD000927,58,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,29,2,1,False,False,False,False,False,True,Negative,0.038
+ASD000928,83,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,3,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000929,41,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,3,2,False,False,False,False,False,False,Not Screened,0.025
+ASD000930,42,Male,Rural,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,18,1,1,False,False,False,False,False,True,Negative,0.055
+ASD000931,54,Female,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,26,3,1,False,False,False,False,False,True,Negative,0.025
+ASD000932,66,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,3,1,False,False,False,False,False,True,Negative,0.042
+ASD000933,37,Male,Urban,Secondary,False,False,False,True,True,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,26,3,1,False,False,False,False,False,True,Negative,0.187
+ASD000934,46,Male,Rural,Secondary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,3,1,False,False,False,False,False,False,Not Screened,0.055
+ASD000935,27,Female,Urban,Secondary,False,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,22,2,2,False,False,False,False,False,False,Not Screened,0.038
+ASD000936,26,Male,Rural,Secondary,True,True,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000937,52,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,27,2,2,False,False,False,False,False,True,Negative,0.047
+ASD000938,34,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,2,1,False,False,False,True,False,True,Negative,0.042
+ASD000939,62,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,18,2,1,False,False,False,False,False,True,Negative,0.078
+ASD000940,54,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,33,1,1,False,False,False,False,False,True,Negative,0.042
+ASD000941,38,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Moderate,4,2,False,14.0,24.0,10.0,25,40,10,2,False,True,False,False,True,True,Positive,0.047
+ASD000942,41,Male,Urban,None/Primary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,17,22,1,1,False,False,False,False,False,False,Not Screened,0.075
+ASD000943,12,Female,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,30,1,1,False,False,False,False,False,True,Negative,0.006
+ASD000944,12,Male,Rural,Higher,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,23,2,1,False,False,False,False,False,True,Negative,0.076
+ASD000945,21,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,3,2,False,False,False,False,False,True,Negative,0.019
+ASD000946,81,Male,Urban,None/Primary,False,False,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,2,2,False,False,False,False,False,False,Not Screened,0.061
+ASD000947,49,Male,Rural,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,21,1,2,False,False,False,False,False,False,Not Screened,0.055
+ASD000948,37,Female,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,6,18,2,1,False,False,False,False,False,True,False Positive,0.027
+ASD000949,41,Male,Urban,Higher,False,False,True,False,False,False,Positive,Moderate,5,4,False,27.0,35.0,8.0,25,39,13,3,True,False,False,True,False,False,Not Screened,0.142
+ASD000950,97,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,32,1,1,False,False,False,False,False,False,Not Screened,0.078
+ASD000951,52,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,1,1,False,False,False,False,False,False,Not Screened,0.109
+ASD000952,12,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,1,2,False,False,False,False,False,False,Not Screened,0.059
+ASD000953,69,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,18,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000954,36,Male,Urban,None/Primary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,22,2,2,False,False,False,False,False,False,Not Screened,0.091
+ASD000955,16,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,1,2,False,False,False,False,False,True,Negative,0.059
+ASD000956,28,Male,Urban,Secondary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,18,2,1,False,False,False,False,False,True,Negative,0.101
+ASD000957,51,Male,Urban,Secondary,True,True,False,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,18,1,1,False,False,False,False,False,False,Not Screened,0.148
+ASD000958,42,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,25,1,1,False,False,False,False,False,True,Negative,0.019
+ASD000959,21,Female,Rural,Higher,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,27,1,1,False,False,False,False,False,True,Negative,0.022
+ASD000960,12,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,1,False,False,False,False,False,True,Negative,0.012
+ASD000961,35,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,21,2,1,False,False,False,False,False,True,Negative,0.109
+ASD000962,57,Female,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,1,False,False,False,False,False,True,Negative,0.012
+ASD000963,30,Female,Urban,None/Primary,False,True,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,22,1,3,False,False,False,False,True,False,Not Screened,0.019
+ASD000964,76,Male,Urban,Secondary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,24,1,2,False,False,False,False,False,True,Negative,0.101
+ASD000965,34,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,25,1,2,False,False,False,False,False,False,Not Screened,0.01
+ASD000966,44,Male,Urban,Higher,False,False,False,False,False,False,Positive,Moderate,5,4,True,12.0,31.0,19.0,25,35,11,3,True,False,True,True,True,True,Positive,0.109
+ASD000967,24,Male,Urban,None/Primary,False,False,True,False,True,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,2,False,False,False,False,False,True,Negative,0.075
+ASD000968,55,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,25,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000969,74,Male,Urban,Higher,False,False,True,False,False,False,Positive,Moderate,4,5,True,12.0,22.0,10.0,20,49,5,3,False,False,False,True,False,True,Positive,0.142
+ASD000970,28,Male,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,27,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000971,70,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,25,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000972,36,Male,Urban,Secondary,False,False,False,True,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,27,2,2,False,False,False,False,False,False,Not Screened,0.101
+ASD000973,12,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,25,3,1,False,False,True,False,False,False,Not Screened,0.038
+ASD000974,63,Male,Rural,None/Primary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,21,1,2,False,False,False,False,False,True,Negative,0.038
+ASD000975,48,Female,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,23,2,2,False,False,False,False,False,False,Not Screened,0.01
+ASD000976,59,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,2,False,False,False,False,False,True,False Positive,0.042
+ASD000977,61,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,22,3,2,False,False,False,False,False,False,Not Screened,0.047
+ASD000978,27,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,21,1,1,False,False,False,True,False,True,Negative,0.109
+ASD000979,40,Male,Rural,Secondary,False,False,True,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,22,3,1,False,False,False,False,False,True,Negative,0.082
+ASD000980,33,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,1,1,False,False,False,False,False,True,Negative,0.029
+ASD000981,29,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,2,False,False,False,False,False,False,Not Screened,0.042
+ASD000982,25,Male,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,22,1,1,False,False,False,False,False,True,Negative,0.078
+ASD000983,42,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,26,2,1,False,False,False,False,False,False,Not Screened,0.047
+ASD000984,53,Male,Urban,None/Primary,False,False,True,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,25,1,2,False,False,False,False,False,True,Negative,0.061
+ASD000985,44,Female,Urban,None/Primary,True,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,15,27,1,2,False,False,False,False,False,True,Negative,0.028
+ASD000986,51,Male,Rural,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,14,23,2,2,False,False,False,False,False,True,Negative,0.025
+ASD000987,29,Female,Urban,Secondary,False,False,False,False,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,8,22,1,1,False,False,False,False,False,False,Not Screened,0.029
+ASD000988,16,Female,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,24,1,2,False,False,True,False,False,False,Not Screened,0.015
+ASD000989,51,Male,Urban,Higher,False,False,True,True,False,False,Positive,Mild,4,4,True,24.0,51.0,27.0,14,24,6,1,False,False,True,True,False,False,Not Screened,0.175
+ASD000990,55,Female,Urban,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,26,1,2,False,False,False,False,False,True,Negative,0.019
+ASD000991,52,Male,Urban,None/Primary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,28,2,1,False,False,False,False,False,True,Negative,0.047
+ASD000992,48,Male,Urban,Secondary,False,False,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,2,False,False,False,False,False,True,Negative,0.152
+ASD000993,42,Male,Urban,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,11,24,1,2,False,False,False,False,False,True,Negative,0.109
+ASD000994,48,Male,Rural,Secondary,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,9,26,2,2,False,False,True,False,False,True,False Positive,0.042
+ASD000995,17,Male,Urban,Secondary,False,True,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,20,1,1,False,False,False,False,False,True,Negative,0.101
+ASD000996,29,Male,Urban,None/Primary,False,False,False,False,False,False,Positive,Mild,4,3,False,29.0,29.0,0.0,16,29,5,1,True,False,True,True,False,False,Not Screened,0.047
+ASD000997,36,Male,Urban,None/Primary,True,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,25,2,1,False,False,False,False,False,False,Not Screened,0.061
+ASD000998,35,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,12,30,1,1,False,False,False,False,False,False,Not Screened,0.059
+ASD000999,43,Female,Rural,Higher,False,True,False,True,False,True,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,10,23,2,1,False,False,False,False,False,False,Not Screened,0.035
+ASD001000,66,Male,Rural,Higher,False,False,False,False,False,False,Negative,Not Applicable,0,0,False,0.0,0.0,0.0,13,20,1,1,False,False,False,False,False,False,Not Screened,0.059
