@@ -1,8 +1,5 @@
 import numpy as np
 
-# =====================================
-# FEATURE ORDER USED BY MODEL
-# =====================================
 
 FEATURE_ORDER = [
     "A1_Score", "A2_Score", "A3_Score", "A4_Score", "A5_Score",
@@ -17,9 +14,7 @@ FEATURE_ORDER = [
     "language_disorder", "motor_delay"
 ]
 
-# =====================================
-# FASTAPI QUESTIONS
-# =====================================
+
 
 QUESTIONS = [
     {
@@ -64,9 +59,6 @@ QUESTIONS = [
     }
 ]
 
-# =====================================
-# FASTAPI SUPPORT
-# =====================================
 
 def build_feature_vector_from_answers(answers):
 
@@ -84,10 +76,6 @@ def build_feature_vector_from_answers(answers):
 
     return vector
 
-
-# =====================================
-# TERMINAL SUPPORT
-# =====================================
 
 def yn(question):
     return 1 if input(question).strip().lower() == "y" else 0
@@ -190,3 +178,6 @@ def get_terminal_input():
     print(f"\n[Debug] Features used: {len(vector)}")
 
     return np.array(vector).reshape(1, -1)
+
+if __name__ == "__main__":
+    get_terminal_input()

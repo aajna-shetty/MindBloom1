@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
 
+
 # Ensure project root is importable
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -22,6 +23,10 @@ from app.questionnaire import build_feature_vector_from_answers, QUESTIONS
 
 # Relational Storage Engine
 from app.database import engine, Base, get_db, ChildProfile, ScreeningTransaction, CognitiveGameLog
+
+
+from app.video.service import run_video_session
+from app.video.schemas import VideoAnalyzeRequest, VideoAnalyzeResponse
 
 # Initialize relational schemas seamlessly in the terminal on boot
 try:
@@ -176,6 +181,131 @@ def predict(request: PredictRequest, db: Session = Depends(get_db)):
 
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+
+@app.post("/video/analyze", response_model=VideoAnalyzeResponse)
+def analyze_video(
+    request: VideoAnalyzeRequest,
+    db: Session = Depends(get_db)
+):
+    """
+    Run the complete video analysis pipeline.
+
+    Webcam/file
+        ↓
+    OpenCV
+        ↓
+    MediaPipe
+        ↓
+    DeepFace
+        ↓
+    47-dimensional feature vector
+        ↓
+    Video Random Forest
+        ↓
+    Video risk score
+    """
+
+    # --------------------------------------------------
+    # 1. Verify child exists
+    # --------------------------------------------------
+
+    child = (
+        db.query(ChildProfile)
+        .filter(ChildProfile.id == request.child_id)
+        .first()
+    )
+
+    if not child:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Child profile {request.child_id} not found."
+        )
+
+    logger.info(
+        "🎥 Terminal Event: Starting video analysis for child ID %s",
+        request.child_id
+    )
+
+    # --------------------------------------------------
+    # 2. Convert source
+    # --------------------------------------------------
+
+    source = request.source
+
+    # VideoCaptureSession expects webcam index as int
+    # when source is something like "0"
+    if source.isdigit():
+        source = int(source)
+
+    logger.info(
+        "🎥 Video source: %s | duration: %s seconds",
+        source,
+        request.duration_seconds
+    )
+
+    # --------------------------------------------------
+    # 3. Run complete video pipeline
+    # --------------------------------------------------
+
+    try:
+
+        if request.duration_seconds is not None:
+            result = run_video_session(
+                source=source,
+                duration_seconds=request.duration_seconds,
+            )
+        else:
+            result = run_video_session(
+                source=source
+            )
+
+    except Exception as exc:
+        logger.exception("🔥 Video analysis crashed")
+
+        raise HTTPException(
+            status_code=500,
+            detail=str(exc)
+        )
+
+    # --------------------------------------------------
+    # 4. Print result to terminal
+    # --------------------------------------------------
+
+    logger.info(
+        "🎥 Video analysis finished | status=%s | score=%s | confidence=%s",
+        result.status,
+        result.video_score,
+        result.video_confidence,
+    )
+
+    if result.feature_count is not None:
+        logger.info(
+            "🎥 Feature vector size: %s",
+            result.feature_count
+        )
+
+    if result.valid_frame_ratio is not None:
+        logger.info(
+            "🎥 Valid frame ratio: %.3f",
+            result.valid_frame_ratio
+        )
+
+    # --------------------------------------------------
+    # 5. Return API response
+    # --------------------------------------------------
+
+    return VideoAnalyzeResponse(
+        status=result.status,
+        video_score=result.video_score,
+        video_confidence=result.video_confidence,
+        predicted_class=result.predicted_class,
+        session_duration_seconds=result.session_duration_seconds,
+        valid_frame_ratio=result.valid_frame_ratio,
+        feature_count=result.feature_count,
+        detail=result.detail,
+    )
 
 @app.post("/profiles/{child_id}/game-session/")
 def log_cognitive_game_metrics(child_id: int, current_log: GameLogInput, db: Session = Depends(get_db)):
