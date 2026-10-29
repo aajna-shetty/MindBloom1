@@ -1,0 +1,223 @@
+MindBloom - Work Summary
+========================
+
+Date compiled: 2026-10-21
+Repository: https://github.com/aajna-shetty/MindBloom.git
+Current branch: main
+Current remote: origin -> https://github.com/aajna-shetty/MindBloom.git
+
+
+1. Project purpose
+------------------
+
+MindBloom is a work-in-progress FastAPI application for experimental,
+early autism-risk screening. It combines:
+
+- Questionnaire-based machine learning.
+- Optional video-based behavioral feature extraction.
+- Hybrid risk scoring.
+- Child profiles and screening-result persistence through SQLAlchemy.
+
+This is a screening aid, not a diagnostic tool. It still requires clinical
+validation, privacy/security controls, usability work, and production
+hardening before real-world use.
+
+
+2. Work completed
+-----------------
+
+- Created and documented the project README.
+- Added the video behavioral-analysis package under app/video/.
+- Added OpenCV webcam/video-file capture support.
+- Added MediaPipe face-landmark processing.
+- Added gaze, blink, eye-openness, head-pose, and landmark-movement features.
+- Added sampled DeepFace emotion processing.
+- Added session tracking and data-quality metrics.
+- Added a fixed 47-dimensional video feature vector.
+- Added feature-schema persistence so training and inference use the same
+  feature order.
+- Added a video Random Forest model wrapper and confidence handling.
+- Added hybrid questionnaire/video score fusion.
+- Added the POST /video/analyze API flow.
+- Added video-related request and response schemas.
+- Added the MediaPipe face_landmarker.task model asset.
+- Added train_video.py for video-model training.
+- Added unit, integration-style, visual, startup, capture, geometry, session,
+  feature, fusion, and service tests.
+- Updated requirements.txt for the video pipeline.
+- Preserved the existing questionnaire training and prediction flow.
+- Kept raw video storage out of the session persistence design.
+- Added validated multipart upload and camera-capture enrollment routes.
+- Removed successful synthetic enrollment from the JSON enrollment route.
+- Disabled surrogate identity embeddings by default; they require explicit test
+  configuration.
+- Added independent OpenCV HOG person-count estimation to supplement face-count
+  checks during video sessions.
+- Added configurable CORS origins and protected server-side video path access.
+- Added production secret enforcement and Alembic migration configuration.
+- Added PBKDF2/HMAC bearer authentication, logout revocation, and child-profile
+  ownership checks across protected questionnaire, profile, biometric, video,
+  game, and screening-history routes.
+- Added consent-gated biometric enrollment and deletion without persistent raw
+  image storage.
+- Added pre-assessment identity consensus, continuous verification pauses,
+  multi-person safeguards, and passive frame-variation liveness signals.
+- Added SQLite-persisted revoked-token records for logout invalidation.
+- Added a size- and extension-validated temporary uploaded-video endpoint with
+  guaranteed cleanup after success or failure.
+
+
+3. Existing API capabilities
+----------------------------
+
+- GET /health
+  Checks whether the questionnaire model is loaded.
+- GET /questions
+  Returns the questionnaire and question count to authenticated caregivers.
+- POST /profiles/
+  Creates a child profile.
+- POST /predict
+  Calculates a questionnaire score and hybrid risk result, then stores the
+  screening transaction.
+- POST /video/analyze
+  Runs the webcam or video-file pipeline for an existing child profile and
+  returns video-analysis information.
+- POST /video/analyze/upload
+  Accepts a validated temporary upload, runs the same protected analysis
+  pipeline, and removes the temporary file afterward.
+
+
+4. Video pipeline
+-----------------
+
+The current processing flow is:
+
+Video source
+  -> OpenCV frame capture
+  -> MediaPipe face landmarks
+  -> geometric behavioral features
+  -> sampled DeepFace emotion probabilities
+  -> session time-series aggregation
+  -> 47-feature vector
+  -> video model risk estimate
+  -> questionnaire/video fusion
+
+Responsibilities are separated as follows:
+
+- OpenCV captures frames.
+- MediaPipe detects landmarks and derives geometry.
+- DeepFace provides expression/affect estimates.
+- The Random Forest is the classification component.
+
+No individual computer-vision signal is directly treated as an autism
+classification decision.
+
+
+5. Model and data status
+------------------------
+
+- Existing questionnaire model artifacts are present under models/.
+- The MediaPipe face-landmarker.task asset is included.
+- The three CSV files under data/ are questionnaire/demographic datasets.
+- A trained video_model.pkl is not currently available.
+- The existing CSV files cannot be used as video-feature training data.
+- train_video.py is available, but real labeled video-derived feature data is
+  required before a video model can be trained.
+- Until a video model is trained and available, video analysis reports that
+  the video model is unavailable rather than producing a video prediction.
+
+
+6. Testing and development support
+----------------------------------
+
+The repository includes:
+
+- Core video unit tests under tests/video/.
+- DeepFace and emotion visual tests.
+- Camera and MediaPipe checks.
+- Startup timing checks.
+- Model-artifact auditing.
+- A development harness at app/video/test.py.
+
+The development harness can be run with:
+
+    python -m app.video.test
+
+The complete test suite can be run with:
+
+    pytest
+
+Some tests need a working camera, model assets, or compatible computer-vision
+runtime dependencies.
+
+
+7. Setup and run commands
+-------------------------
+
+Create and activate a virtual environment:
+
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+
+Install dependencies:
+
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+
+Start the API:
+
+    uvicorn app.main:app --reload
+
+Open API documentation:
+
+    http://127.0.0.1:8000/docs
+
+Train the existing questionnaire model:
+
+    python train.py
+
+Train the video model after obtaining suitable labeled video-derived data:
+
+    python train_video.py
+
+
+8. Repository history
+---------------------
+
+- 5522945 - Initial commit.
+- 4949679 - Added video screening pipeline and project README.
+- f60a974 - Agent-host baseline checkpoint.
+
+The configured GitHub remote is the requested MindBloom repository:
+https://github.com/aajna-shetty/MindBloom.git
+
+
+9. Known limitations and next steps
+-----------------------------------
+
+- Validate the models on representative, labeled data.
+- Create a real video-derived training dataset and train video_model.pkl.
+- Calibrate video-model probabilities.
+- Validate gaze, blink, head-pose, and emotion measurements.
+- Complete frontend and end-to-end product flows; frontend work was explicitly
+  excluded from the current backend scope.
+- Add real labeled video-derived data, train video_model.pkl, and calibrate it.
+- Validate passive liveness and HOG person detection against representative
+  cameras, lighting, distances, and presentation attacks.
+- Complete clinical validation, probability calibration, privacy review, and
+  production observability/deployment hardening.
+- Apply `alembic upgrade head` before production startup and review migrations
+  for existing databases.
+
+
+10. Latest validation
+---------------------
+
+- `python -m compileall -q app migrations`: passed.
+- `git diff --check`: passed.
+- Full pytest suite: 80 passed.
+- The API intentionally reports `video_model_not_available` while no genuine
+  labeled video-feature model artifact exists.
+
+
+End of summary.

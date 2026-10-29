@@ -88,3 +88,10 @@ VIDEO_MODEL_PATH = os.path.join(MODELS_DIR, "video_model.pkl")
 VIDEO_SCALER_PATH = os.path.join(MODELS_DIR, "video_scaler.pkl")
 VIDEO_METRICS_PATH = os.path.join(MODELS_DIR, "video_metrics.json")
 VIDEO_FEATURE_SCHEMA_PATH = os.path.join(MODELS_DIR, "video_feature_schema.json")
+
+ALLOW_SERVER_FILE_PATHS = os.environ.get(
+    "MINDBLOOM_ALLOW_SERVER_FILE_PATHS", "false"
+).lower() == "true"
+ALLOWED_SOURCE_DIR = os.path.abspath(
+    os.environ.get("MINDBLOOM_ALLOWED_SOURCE_DIR", os.path.join(BASE_DIR, "data"))
+)

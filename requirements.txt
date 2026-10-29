@@ -7,7 +7,14 @@ imbalanced-learn
 joblib
 pydantic
 xgboost
+sqlalchemy
+httpx
+pytest
 
 opencv-python>=4.9
 mediapipe>=0.10
 deepface>=0.0.93
+tf-keras
+alembic
+psycopg2-binary
+python-multipart

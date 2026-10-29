@@ -23,7 +23,7 @@ import numpy as np
 
 try:
     from deepface import DeepFace
-except ImportError as exc:  # pragma: no cover
+except Exception as exc:  # pragma: no cover
     DeepFace = None
     _import_error = exc
 

@@ -199,6 +199,7 @@ class LandmarkFrameFeatures:
     face_detected: bool
 
     num_faces: int = 0
+    person_count: Optional[int] = None
 
     gaze_horizontal: Optional[float] = None
     gaze_vertical: Optional[float] = None
@@ -319,6 +320,8 @@ class MediaPipeProcessor:
         )
 
         self.refine_landmarks = refine_landmarks
+        self._person_detector = cv2.HOGDescriptor()
+        self._person_detector.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
         # Previous frame landmarks
         self._prev_landmarks: Optional[np.ndarray] = None
@@ -484,6 +487,21 @@ class MediaPipeProcessor:
     # FRAME PROCESSING
     # ========================================================================
 
+    def _estimate_person_count(self, rgb_frame: np.ndarray) -> Optional[int]:
+        """Estimate visible people independently of face count."""
+        try:
+            bgr_frame = cv2.cvtColor(rgb_frame, cv2.COLOR_RGB2BGR)
+            boxes, _ = self._person_detector.detectMultiScale(
+                bgr_frame,
+                winStride=(8, 8),
+                padding=(8, 8),
+                scale=1.05,
+            )
+            return int(len(boxes))
+        except Exception as exc:
+            logger.debug("Person detection unavailable for frame: %s", exc)
+            return None
+
     def process_frame(
         self,
         rgb_frame: np.ndarray,
@@ -535,6 +553,7 @@ class MediaPipeProcessor:
             rgb_frame = np.ascontiguousarray(
                 rgb_frame
             )
+            person_count = self._estimate_person_count(rgb_frame)
 
             # ------------------------------------------------------------
             # Create MediaPipe Image
@@ -584,6 +603,7 @@ class MediaPipeProcessor:
                 return LandmarkFrameFeatures(
                     face_detected=False,
                     num_faces=0,
+                    person_count=person_count,
                 )
 
             num_faces = len(faces)
@@ -708,6 +728,7 @@ class MediaPipeProcessor:
             return LandmarkFrameFeatures(
                 face_detected=True,
                 num_faces=num_faces,
+                person_count=person_count,
 
                 gaze_horizontal=gaze_h,
                 gaze_vertical=gaze_v,
@@ -929,6 +950,8 @@ class MediaPipeProcessor:
 
         Both are approximately in [0, 1].
         """
+        if not getattr(self, "_refine_landmarks", True):
+            return None, None
 
         required = max(
             LEFT_IRIS_CENTER_IDX,
